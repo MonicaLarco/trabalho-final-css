@@ -1,3 +1,18 @@
+# CSS Architecture
+The CSS architecture used for this project is SMACSS, (Base, Layout, Module, State and Theme). The project is a blog and it's divided in 5 sections which are the Navbar, Header, Sidebar and the blog posts.
+
+In the index.css files contains the CSS rules.
+
+1. The base layer conatains the unclassed HTML rules.
+2. The settings contains the Primary and Secondary colors, which are the colors of the logo.
+3. The layout contains stores the sections with grids and containers.
+4. The components contains the styling of each section.
+
+- The Navbar uses flexbox that helps divide each link and place them on the middle of the page, below the logo.
+- The layout uses grid in order to separate the blog posts from the sidebar.
+- The blog posts is a block and it has various elements in order to style the section.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
